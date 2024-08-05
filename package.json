@@ -1,13 +1,13 @@
 {
-  "homepage":"http://sunnyV0207.github.io/portfolio",
+  "homepage": "http://sunnyV0207.github.io/portfolio",
   "name": "sunny-portfollio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
