@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+} */
+
+@media screen and (max-width:440px){
+    .container{
+        position: relative;
+        left: 0.8rem;
+    }    
+}
+
+@media screen and (max-width:400px){
+    .container{
+        position: relative;
+        left: 1.5rem;
+    }    
+}
+
+@media screen and (max-width:375px){
+    .container{
+        position: relative;
+        left: 2.5rem;
+    }    
+}

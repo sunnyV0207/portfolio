@@ -1,0 +1,108 @@
+.education{
+    width: 100vw;
+    margin-bottom: 2rem;
+    /* height: calc(100vh - 5rem); */
+    /* border: 2px solid white; */
+}
+
+.education .heading{
+    position: relative;
+    top: 8%;
+    /* left: 45%; */
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.education .eduSec{
+    width: 80%;
+    /* height: 70%; */
+    max-width: 70rem;
+    margin: 1rem auto 0;
+    /* border: 2px solid white; */
+    position: relative;
+    top: 14%;
+    display: flex;
+    opacity: 0.9;
+    background-color: rgb(40, 40, 40);
+    box-shadow: -3px 1px 9px 1px rgba(255,255,255,0.26);
+}
+
+.education .eduSec .left{
+    width: 30%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+    /* border: 2px solid yellow; */
+}
+
+.education .eduSec .right{
+    width: 70%;
+    /* height: 100%; */
+    /* border: 2px solid yellow; */
+}
+
+.education .eduSec .left .what{
+    /* border: 2px solid red; */
+    /* position: relative;
+    top: 20%; */
+    padding: 1rem;
+    /* margin-top: 3.5rem; */
+}
+
+.education .eduSec .right{
+    padding: 1rem;
+}
+
+.education .eduSec .right .headPart{
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.education .eduSec .right .headPart p{
+    padding-top: 0.5rem;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.education .eduSec .right .contentPart{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.education .eduSec .right .contentPart p{
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:650px) {
+    .education .eduSec{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .education .eduSec .left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .education .eduSec .right{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .education .eduSec{
+        position: relative;
+        left: 2rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .education .eduSec{
+        width: 100%;
+        position: relative;
+        left: 3rem;
+    }
+}

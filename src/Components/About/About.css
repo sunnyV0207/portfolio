@@ -1,0 +1,103 @@
+.about{
+    /* height: calc(100vh - 5rem); */
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    /* margin-top: 3rem; */
+    margin-bottom: 2rem;
+}
+
+.miniSec{
+    background-color: rgb(40, 40, 40);
+    opacity: 0.9;
+    /* border: 2px solid green; */
+    margin: 0 5rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: -3px 1px 9px 1px rgba(255,255,255,0.26);
+}
+
+.miniSec .aboutPart{
+    /* border: 1px solid red; */
+    margin: 1rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.miniSec .basicInfo{
+    /* border: 1px solid red; */
+    margin: 1rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.aboutPart h2{
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.aboutPart p{
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
+}
+
+.basicInfo h2{
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .miniSec .basicInfo .row{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.about .miniSec .basicInfo .row div{
+    width: 35%;
+}
+
+.about .miniSec .basicInfo .row .span1{
+    font-size: 1.18rem;
+    font-weight: bold;
+}
+
+.about .miniSec .basicInfo .row .span2{
+    font-size: 0.97rem;
+    font-weight: 100;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
+}
+
+@media screen and (max-width:900px) {
+    .about{
+        height: fit-content;
+    }
+
+    .miniSec{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 3rem;
+    }
+
+    .about .miniSec .aboutPart{
+        width: 90%;
+    }
+
+    .about .miniSec .basicInfo{
+        width: 90%;
+    }
+}
+
+/* @media screen and (max-width:970px) {
+    
+} */

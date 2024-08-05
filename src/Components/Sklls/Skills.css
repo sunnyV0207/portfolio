@@ -1,0 +1,205 @@
+.skills{
+    width: 100vw;
+    /* height: calc(100vh - 4rem); */
+    /* margin: 0 auto; */
+    padding-top: 2rem;
+    /* border: 1px solid white; */
+}
+
+.skills .skillsec{
+    width: 86vw;
+    max-width: 75rem;
+    margin: 0 auto 5rem;
+    padding: 1rem 1rem 0;
+    opacity: 0.9;
+    background-color: rgb(40, 40, 40);
+    box-shadow: -3px 1px 9px 1px rgba(255,255,255,0.26);
+}
+
+.skills .skillsec .heading{
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.skills .skillsec .skillbar{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills .skillsec .skillbar .progress-cont{
+    width: 27.5rem;
+    /* height: 30vh; */
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+} 
+
+.skills .skillsec .skillbar .progress-cont .skillName{
+    padding: 0 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .skillsec .skillbar .progress-cont .skillName span{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.skillbar .progress-cont .progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillbar .progress-cont .progressbar .left1{
+    width: 95%;
+    height: 0.3rem;
+    background-color: rgb(3, 104, 3);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .right1{
+    width: 5%;
+    height: 0.3rem;
+    background-color: rgb(119, 180, 119);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .left2{
+    width: 90%;
+    height: 0.3rem;
+    background-color: rgb(3, 104, 3);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .right2{
+    width: 10%;
+    height: 0.3rem;
+    background-color: rgb(119, 180, 119);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .left3{
+    width: 80%;
+    height: 0.3rem;
+    background-color: rgb(3, 104, 3);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .right3{
+    width: 20%;
+    height: 0.3rem;
+    background-color: rgb(119, 180, 119);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .left4{
+    width: 70%;
+    height: 0.3rem;
+    background-color: rgb(3, 104, 3);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .right4{
+    width: 30%;
+    height: 0.3rem;
+    background-color: rgb(119, 180, 119);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .left5{
+    width: 85%;
+    height: 0.3rem;
+    background-color: rgb(3, 104, 3);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .right5{
+    width: 15%;
+    height: 0.3rem;
+    background-color: rgb(119, 180, 119);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .left6{
+    width: 70%;
+    height: 0.3rem;
+    background-color: rgb(3, 104, 3);
+    margin-top: 1rem;
+    
+}
+
+.skillbar .progress-cont .progressbar .right6{
+    width: 30%;
+    height: 0.3rem;
+    background-color: rgb(119, 180, 119);
+    margin-top: 1rem;
+    
+}
+
+@media screen and (max-width:1098px) and (min-width:800px){
+    .skills .skillsec .skillbar .progress-cont{
+        width: 20.5rem;
+        /* height: 30vh; */
+        margin-bottom: 1.5rem;
+        padding: 0 0.5rem;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .skills .skillsec .skillbar .progress-cont{
+        width: 90%;
+        /* height: 30vh; */
+        margin-bottom: 1.5rem;
+        padding: 0 0.5rem;
+    }
+
+    .skills .skillsec .skillbar .progress-cont .skillName span{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .skills .skillsec .skillbar .progress-cont .skillName span{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+    }
+
+    .skills .skillsec .heading{
+        /* width: 100%;
+        text-align: center;
+        margin: 1rem 0; */
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .skills .skillsec{
+        position: relative;
+        left: 2rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .skills .skillsec{
+        width: 100%;
+        position: relative;
+        left: 3rem;
+    }
+}
