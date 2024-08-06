@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Link className='link' activeClass='active' to='education' spy={true} smooth={true} offset={-100} duration={500}>Education</Link>
                 <Link className='link' activeClass='active' to='work' spy={true} smooth={true} offset={-100} duration={500} >Work</Link>
             </div>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className='navbtn'><img src='public/assets/message.png' className='btnimg'/>Contact me</button></Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className='navbtn'><img src='/public/assets/message.png' className='btnimg'/>Contact me</button></Link>
             <i className="fa-solid fa-bars mobMenu" onClick={()=>{setShowMenu(!showMenu);setVisi(!visi)}} ></i>
             <div className='menulinks' style={{display: showMenu? 'none' : 'flex',visibility: visi? 'hidden': 'visible'}}>
                 <Link className='mlink' activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setShowMenu(false)}>Home</Link>
