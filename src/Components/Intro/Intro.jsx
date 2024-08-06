@@ -16,7 +16,7 @@ const Intro = () => {
         </div>
         <div className="right">
             <div className="imageSec">
-                <img src="/public/assets/sunny.jpg" alt="myImage" />
+                <img src="/assets/sunny.jpg" alt="myImage" />
             </div>
         </div>
       </div>
